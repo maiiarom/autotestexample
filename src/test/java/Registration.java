@@ -124,7 +124,7 @@ public class Registration {
         buttonAllUsers.click();
 
         WebElement linkDeleteAllUsers;
-        linkDeleteAllUsers = driver.findElement(By.xpath("/html/body/table[1]/tbody/tr[6]/td[1]/a[10]"));
+        linkDeleteAllUsers = driver.findElement(By.xpath("/html/body/table[1]/tbody/tr[6]/td[1]/a[2]"));
         linkDeleteAllUsers.click();
     }
 
