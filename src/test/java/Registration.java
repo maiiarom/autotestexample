@@ -94,7 +94,7 @@ public class Registration {
         Assert.assertEquals("You are registered successfully.", registerOKText);
     }
 
-   @Test
+    @Test
     public void registrationTestNegativeNotUniqLogin() throws InterruptedException {
         registrationSteps(login, password, email, age, country);
         welcomePageNotUniqLogin();
@@ -128,4 +128,4 @@ public class Registration {
         linkDeleteAllUsers.click();
     }
 
- }
+}
